@@ -35,7 +35,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 80px;
+    padding: 40px 60px;
 }
 
 .section-m1{
@@ -213,14 +213,14 @@ body{
 
 #product1 .pro-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-top: 20px;
     flex-wrap: wrap;
 }
 
 #product1 .pro {
-    width: 23%;
-    min-width: 250px;
+    width: 18%;
+    min-width: 200px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
@@ -533,9 +533,83 @@ footer .copyright {
     color: #222;
 }
 
-#page-header h2
-#page-header p {
-	color: #fff;
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Single Product */
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    padding: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
 
 @media (max-width: 799px){
@@ -584,7 +658,7 @@ footer .copyright {
         left: 30px;
         color: #222;
         font-size: 24px;
-	display: flex;
+        display: flex;
     }
 
     #lg-bag{
