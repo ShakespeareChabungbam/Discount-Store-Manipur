@@ -764,4 +764,21 @@ footer .copyright {
         height: 50vh;
         width: 100%;
     }
+
+
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 50px;
+    }
 }
