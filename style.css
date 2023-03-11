@@ -772,6 +772,11 @@ footer .copyright {
         flex-direction: column;
     }
 
+    #prodetails .single-pro-details {
+        width: 100%;
+        padding-top: 30px;
+    }
+
     #prodetails .single-pro-image {
         width: 100%;
         margin-right: 0px;
